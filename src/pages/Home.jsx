@@ -163,7 +163,7 @@ function Home() {
         <div className={`absolute inset-0 bg-gradient-to-b ${currentStyle.overlay} transition-all duration-500`} />
 
         {/* Time-of-day drink suggestion - Desktop only (>= 890px) */}
-        <div className="hidden min-[890px]:block absolute top-4 right-3 sm:top-6 sm:right-6 z-20">
+        <div className="hidden min-[890px]:block absolute top-4 right-3 sm:top-6 sm:right-6 lg:right-12 xl:right-16 z-20">
           <div className="inline-flex max-w-[260px] items-center gap-3 rounded-2xl bg-white/10 border border-white/25 px-3 py-2 sm:px-4 sm:py-2.5 backdrop-blur-md shadow-lg">
             <div className="flex items-center justify-center w-8 h-8 rounded-full bg-white/15 text-white">
               {currentPrompt.Icon && <currentPrompt.Icon className="w-5 h-5" />}
@@ -179,7 +179,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="relative z-10 h-full px-4 sm:px-6 lg:px-8">
+        <div className="relative z-10 h-full px-4 sm:px-6 lg:px-8 xl:px-12">
           <div className="h-full flex flex-col justify-end pb-10 sm:pb-12 lg:pb-16">
             <div
               className="w-full max-w-7xl mx-auto flex flex-col sm:flex-row sm:items-end gap-6 sm:gap-8"
@@ -190,7 +190,7 @@ function Home() {
               }}
             >
               {/* Slogan + subcopy - bottom left */}
-              <div className="max-w-xl text-left space-y-3 sm:space-y-4">
+              <div className="max-w-xl text-left space-y-3 sm:space-y-4 lg:pl-4 xl:pl-6">
                 <div className="space-y-3">
                   <span className="inline-flex px-4 py-2 bg-white/20 backdrop-blur-md border border-white/30 rounded-full text-xs sm:text-sm font-normal text-white/95 uppercase tracking-wider">
                     Asian Bakery and Store

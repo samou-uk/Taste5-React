@@ -35,7 +35,7 @@ function Navigation() {
     <>
       {/* Logo - Top Left Corner (always pinned) */}
       <div
-        className="absolute left-6 md:left-10 z-50 pointer-events-auto"
+        className="absolute left-6 md:left-10 lg:left-16 xl:left-20 z-50 pointer-events-auto"
         style={{
           top: 'calc(env(safe-area-inset-top, 0px) + 10px)',
         }}
